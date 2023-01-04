@@ -490,3 +490,24 @@ Blockly.Blocks['operator_eval'] = {
   }
 };
 //}} #6
+//{{ #8
+Blockly.Blocks['operator_trim'] = {
+  /**
+   * Block for trim string value.
+   * @this Blockly.Block
+   */
+  init: function() {
+    this.jsonInit({
+      "message0": Blockly.Msg.OPERATORS_TRIM,
+      "args0": [
+        {
+          "type": "input_value",
+          "name": "STRING"
+        }
+      ],
+      "category": Blockly.Categories.operators,
+      "extensions": ["colours_operators", "output_string"]
+    });
+  }
+};
+//}} #6

@@ -175,6 +175,9 @@
 //{{ #6
     "OPERATORS_EVAL": "eval %1",
 //}} #6
+//{{ #8
+    "OPERATORS_TRIM": "trim %1",
+//}} #8
 
     "PROCEDURES_DEFINITION": "define %1",
     "SENSING_TOUCHINGOBJECT": "touching %1?",

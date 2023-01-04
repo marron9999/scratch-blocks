@@ -181,6 +181,9 @@ Blockly.Msg["OPERATORS_MATHOP_10EXP"] = "10 ^";
 //{{ #6
 Blockly.Msg["OPERATORS_EVAL"] = "eval %1";
 //}} #6
+//{{ #8
+Blockly.Msg["OPERATORS_TRIM"] = "trim %1";
+//}} #8
 
 Blockly.Msg["PROCEDURES_DEFINITION"] = "define %1";
 Blockly.Msg["SENSING_TOUCHINGOBJECT"] = "touching %1?";
