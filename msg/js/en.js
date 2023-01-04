@@ -26,6 +26,12 @@ Blockly.Msg["CONTROL_COUNTER"] = "counter";
 Blockly.Msg["CONTROL_INCRCOUNTER"] = "increment counter";
 Blockly.Msg["CONTROL_CLEARCOUNTER"] = "clear counter";
 Blockly.Msg["CONTROL_ALLATONCE"] = "all at once";
+
+//{{ #9
+Blockly.Msg["CONTROL_OUTPUT"] = "output %1";
+Blockly.Msg["CONTROL_CLEAR"] = "clear outputs";
+//}} #9
+
 Blockly.Msg["DATA_SETVARIABLETO"] = "set %1 to %2";
 Blockly.Msg["DATA_CHANGEVARIABLEBY"] = "change %1 by %2";
 Blockly.Msg["DATA_SHOWVARIABLE"] = "show variable %1";

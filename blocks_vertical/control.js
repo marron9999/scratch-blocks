@@ -529,3 +529,38 @@ Blockly.Blocks['control_all_at_once'] = {
     });
   }
 };
+
+//{{ #9
+Blockly.Blocks['control_output'] = {
+  /**
+   * Block for output string value.
+   * @this Blockly.Block
+   */
+  init: function() {
+    this.jsonInit({
+      "message0": Blockly.Msg.CONTROL_OUTPUT,
+      "args0": [
+        {
+          "type": "input_value",
+          "name": "STRING"
+        }
+      ],
+      "category": Blockly.Categories.control,
+      "extensions": ["colours_control", "shape_statement"]
+    });
+  }
+};
+Blockly.Blocks['control_clear'] = {
+  /**
+   * Block for clear outputted strings.
+   * @this Blockly.Block
+   */
+  init: function() {
+    this.jsonInit({
+      "message0": Blockly.Msg.CONTROL_CLEAR,
+      "category": Blockly.Categories.control,
+      "extensions": ["colours_control", "shape_statement"]
+    });
+  }
+};
+//}} #9
