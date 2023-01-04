@@ -510,4 +510,4 @@ Blockly.Blocks['operator_trim'] = {
     });
   }
 };
-//}} #6
+//}} #8
