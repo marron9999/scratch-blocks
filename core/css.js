@@ -1344,6 +1344,11 @@ Blockly.Css.CONTENT = [
   '}',
 
   '.scratchCategoryMenuItem:hover {',
+
+//{{ #7
+    'font-weight: bold;',
+//}} #7
+
     'color: $colour_toolboxHover !important;',
   '}',
   ''
