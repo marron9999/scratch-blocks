@@ -468,3 +468,25 @@ Blockly.Blocks['operator_mathop'] = {
     });
   }
 };
+
+//{{ #6
+Blockly.Blocks['operator_eval'] = {
+  /**
+   * Block for evaluate string value.
+   * @this Blockly.Block
+   */
+  init: function() {
+    this.jsonInit({
+      "message0": Blockly.Msg.OPERATORS_EVAL,
+      "args0": [
+        {
+          "type": "input_value",
+          "name": "STRING"
+        }
+      ],
+      "category": Blockly.Categories.operators,
+      "extensions": ["colours_operators", "output_string"]
+    });
+  }
+};
+//}} #6
